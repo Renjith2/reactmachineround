@@ -1,0 +1,12 @@
+.container-class {
+  width: 500px;
+  height: 150px;
+  background-color: beige;
+  overflow: hidden;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.arrow{
+    transform: rotate(90deg);
+}
