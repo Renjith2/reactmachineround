@@ -3,11 +3,11 @@ import './Faq.css'
 
 function Faqitem({faq,index}) {
     const [show,setShow]=useState(false)
-    useEffect(()=>{
-        if(index===0){
-            setShow(true)
-        }
-    },[])
+    // useEffect(()=>{
+    //     if(index===0){
+    //         setShow(true)
+    //     }
+    // },[])
 
     function handleClick(){
         setShow((prev)=>!prev)

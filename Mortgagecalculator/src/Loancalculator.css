@@ -1,0 +1,10 @@
+.form-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+    background-color: azure;
+    
+}
