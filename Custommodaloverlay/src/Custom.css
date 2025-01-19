@@ -1,0 +1,63 @@
+.overlay-container {
+  height: 100vh;
+  width: 100vw;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-class {
+  background-color: rgb(220, 88, 88);
+}
+
+.class-modal {
+    width: 90%;
+    max-width: 400px;
+  height: 300px;
+  background-color: rgba(187, 64, 64, 0.5); 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 15px;
+}
+
+.class-overlay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(92, 82, 82, 0.4);
+  z-index: 1000;
+  color: black;
+}
+
+.close-button{
+    position:absolute;
+    top:210px;
+    left:600px;
+
+}
+.accept-button{
+    position:absolute;
+    top:450px;
+    left:700px;
+}
+
+.offer-div{
+    font-size: 20px;
+    color: green;
+    text-align: center;
+}
+
+ 
+
+
+
