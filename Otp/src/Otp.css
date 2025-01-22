@@ -1,0 +1,46 @@
+ .outer-container{
+margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+   overflow: hidden;
+   display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.input-container{
+    padding: 20px;
+    width: 500px;
+    height:300px;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+}
+.input-box{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    width: 300px;
+}
+.input-field{
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    text-align: center;
+  
+}
+
+.button-class{
+    background-color: purple;
+    color: white;
+    margin: 30px;
+} 
+
+.input-field-empty{
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    text-align: center;
+    border-color:red
+}
