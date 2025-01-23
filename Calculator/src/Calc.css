@@ -1,0 +1,32 @@
+.outer-container{
+    padding: 20px;
+    margin: 0;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+    /* background-color: rgb(191, 125, 39); */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.input-field{
+    width: 200px;
+    height: 30px;
+}
+
+.button-container{
+    margin-top: 30px;
+    width: auto;
+    height: auto;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+
+}
+
+.button-class{
+    background-color: aqua;
+    margin: 10px;
+}
